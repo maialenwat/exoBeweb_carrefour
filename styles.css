@@ -1,0 +1,99 @@
+body{
+  background: lightskyblue;
+}
+div{
+  box-sizing: border-box;
+}
+/*Feux tricolores*/
+.tl-block{
+  background-color: pink;
+  position: absolute;
+  width: 20%;
+  height: 20%;
+}
+.tl-item{
+  border: 1px solid black;
+  height: 50%;
+}
+.tl-head{
+  background-color: orange;
+  width: 33%;
+}
+.feu{
+  height: 30%;
+  width: 45%;
+  margin: auto;
+  margin-top:5%;
+  border-radius: 50%;
+}
+.vert{
+  background-color: green;
+}
+.jaune{
+  background-color: yellow;
+}
+.rouge{
+  background-color: red;
+}
+.tl-pied{
+  background-color: purple;
+  position: relative; 
+  width: 15%;
+  margin-left: 9%;
+}
+
+/*Routes*/
+.grid-container{
+  background-color: darkgreen;
+  position: absolute;
+  border: 1px solid black;
+  width: 500px;
+  height: 500px;
+  top: 200px;
+  left: 200px;
+}
+.route{
+  position: absolute;
+  background-color: grey;
+  width: 200px;
+  height: 100px;
+  border: 1px solid black;
+}
+.route-centre{
+  width:20%;
+  height: 20%;
+  left: 40%;
+  top: 40%;
+}
+.route-gauche{
+  width: 40%;
+  height: 20%;
+  top: 40%;
+  border-right: 8px dashed white;
+}
+.route-droite{
+  width: 40%;
+  height: 20%;
+  top: 40%;
+  left: 60%;
+  border-left: 8px dashed white;
+}
+.route-haut{
+  width: 20%;
+  height: 40%;
+  left: 40%;
+  border-bottom: 8px dashed white;
+}
+.route-bas{
+  width: 20%;
+  height: 40%;
+  top: 60%;
+  left: 40%;
+  border-top: 8px dashed white;
+}
+/*Positions des feux*/
+.tl-block{
+  transform: rotate(180deg);
+  left:20%;
+  top: 20%;
+}
