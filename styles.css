@@ -11,6 +11,7 @@ div{
   width: 20%;
   height: 20%;
 }
+
 .tl-item{
   border: 1px solid black;
   height: 50%;
@@ -42,6 +43,7 @@ div{
   margin-left: 9%;
 }
 
+
 /*Routes*/
 .grid-container{
   background-color: darkgreen;
@@ -49,8 +51,8 @@ div{
   border: 1px solid black;
   width: 500px;
   height: 500px;
-  top: 200px;
-  left: 200px;
+  top: 20px;
+  left: 10px;
 }
 .route{
   position: absolute;
@@ -96,4 +98,17 @@ div{
   transform: rotate(180deg);
   left:20%;
   top: 20%;
+}
+.tl-block:nth-child(3){
+  top: 60%;
+  transform: rotate(90deg);
+}
+.tl-block:nth-child(1){
+  left:60%;
+  transform: rotate(270deg);
+}
+.tl-block:nth-child(5){
+  top: 60%;
+  left: 60%;
+  transform: rotate(360deg);
 }
