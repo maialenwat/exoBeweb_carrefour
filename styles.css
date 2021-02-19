@@ -29,12 +29,15 @@ div{
 }
 .vert{
   background-color: green;
+  transition: background-color 0.5s linear 0s;
 }
 .jaune{
   background-color: yellow;
+  transition: background-color 0.5s linear 0s; ;
 }
 .rouge{
   background-color: red;
+  transition: background-color 0.5s linear 0s; ;
 }
 .tl-pied{
   background-color: purple;
